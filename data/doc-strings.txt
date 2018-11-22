@@ -1,0 +1,51 @@
+
+'''
+PupAIS is a Python AIS NMEA string parser.
+-------------------------------------------------------------------
+This version outputs data to a csv file, which is parsed by two in-
+dependent GUI's started as subprocesses in circa line 1150: 
+1) PopuLister, a PythonCard script (AISflukt.py) listing data for each target,
+2) Ployplot, a Pygame based "radar screen" emulator plotting  targets in 2D.
+-------------------------------------------------------------------
+
+@author: U{Martin Bergman<http://goto.glocalnet.net/mabe/>}
+@version: Revision: 44
+@copyright: Certain functions adapted from code by
+1) Bartek Górny <bartek@gorny.edu.pl> 2009
+2) Robert Montante <bobmon@bloomu.edu> 2008
+@status: under development
+@license: GPL
+'''
+////////////////////////////////////////////////////////////
+
+'''
+-------------------------------------------------------------------
+PopuLister is a GUI interface for the AIS NMEA string parser PupAIS. 
+It reads plain text data from a repeatedly updated comma separated 
+"census" file, sorts and lists the existing population of targets, 
+and exhibits available properties of individual targets using one 
+"card" per target.
+-------------------------------------------------------------------
+
+@author: U{Martin Bergman<http://goto.glocalnet.net/mabe/>}
+@version: Revision: 4.2
+@status: under development
+@license: GPL
+'''
+////////////////////////////////////////////////////////////
+
+'''
+-------------------------------------------------------------------
+PloyPlot is a 2D plotter interface for the AIS NMEA string parser 
+PupAIS. It reads plain text data from a repeatedly updated comma
+separated "census" file, then populates a pseudo radar screen with 
+sprites for all blips/targets.
+-------------------------------------------------------------------
+
+
+@author: U{Martin Bergman<http://goto.glocalnet.net/mabe/>}
+@version: Revision: 4.1
+@status: under development
+@license: GPL
+'''
+
